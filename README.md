@@ -9,12 +9,10 @@ egg egg egg egg
 
 
 
-<details>
-<summary>#***Code Review***</summary>
 
-https://youtu.be/igXro7HJSLM
 
-</details>
+![Code Review](https://youtu.be/igXro7HJSLM)
+
 
 <details>
 <summary>#***Software Design/Engineering***</summary>
