@@ -12,28 +12,18 @@
 Link: https://youtu.be/igXro7HJSLM
 
 
-<details>
-<summary>#***Software Design/Engineering***</summary>
+# ***3. Software Design/Engineering***
 
 To be added
 
-</details>
 
-<details>
-<summary>#***Algorithms and Data Structures***</summary>
 
-To be added
-
-</details>
-
-<details>
-<summary>#***Databases***</summary>
+# ***4. Algorithms and Data Structure***
 
 To be added
 
-</details>
+# ***5. Databases***
 
-# TEST
-## TEST
-### TEST
-# ***TEST***
+To be added
+
+
