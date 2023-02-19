@@ -1,22 +1,22 @@
-# ***Table of Contents***
+# **Table of Contents**
 1. Professional Self-Assessment
 2. Code Review
 3. Software Design and Engineering - Artifact 1: Inventory Management Application Enhancement
 4. Algorithms and Data Structure - Artifact 2: Hash Table Lab Enhancement
 5. Databases - Artifact 3: SQL Database Report Enhancement
 
-# ***1. Professional Self-Assessment***
+# **1. Professional Self-Assessment**
 
 Throughout my time working towards my degree, I have completed a number of different assignments touching on many facets of computer science and software engineering. I have worked with a team using Git to alter, enhance, and update code on a multi-branched tree, studied agile and scrum methodologies, and worked with various data structures and algorithms to create an assortment of different programs. I have assessed code for security vulnerabilities and created a full security report with recommendations for improvement and best practices to adhere to for theoretical company stakeholders. I have reverse engineered assembly code into functional C++, built a full Android application for product inventory management, and worked with a number of databases to not only query but perform other tasks like building a forward-facing user interface with Python code. Every course presented a new challenge to undertake, lesson to learn, and skill to add to my repertoire. This collection is intended to highlight just a few of my strengths that I have acquired throughout my time in this program, but know that there are plenty of other projects that I would have loved to have included as well.
 
 For this ePortfolio, I was tasked with selecting artifacts in three major categories: software design and engineering, algorithms and data structure, and databases. The artifact chosen for software design and engineering is my final project from my CS-360 Mobile Architecture and Programming course. It is a mobile inventory management application created for the Android OS environment using Java as its primary language, for this portfolio I have converted the application’s code to Kotlin to demonstrate my ability to work with multiple languages and translate from one to another. The second artifact, for algorithms and data structure, is a select file from my final portfolio from my CS-260 Data Structures and Algorithms course. The file itself uses a hash table to store and query a dataset, and for this portfolio I have tried my hand at optimizing said code by rewriting it to use iterators in its core functionality. And the final artifact for databases is an extension of my final database report from my DAD-220 Introduction to SQL course. The original file is a report based on a number of actions we were asked to perform with a specific dataset, but the artifact itself is a database of my own creation and a new database using the skills I learned in said course and a number of different types of queries using it.
 
 
-# ***2. Code Review***
+# **2. Code Review**
 You can find my initial code review at the following link: [Code Review](https://youtu.be/igXro7HJSLM)
 
 
-# ***3. Software Design/Engineering***
+# **3. Software Design/Engineering**
 
 The artifact chosen for the software design and engineering portion of the ePortfolio is the final project from my CS-360 Mobile Architecture and Programming course in July/August of 2022. The project itself is a mobile application intended to be used by a small/medium business or individual seller for product inventory management. It uses a grid-based view to display input products, stores and displays a number of related informative aspects like name and price, has user profiles with associated credentials (including functionality to login or signup), and allows for C.R.U.D. functionality with all related data. This was one of three options for the project, and it was developed in Android Studio using Java as its primary programming language.
 	
@@ -27,7 +27,7 @@ The course objective was to take the artifact and enhance it in some form or fas
 The process of enhancing this artifact was a genuine trial. I have very little experience with translating from one programming language to another, and what little I do have is largely reverse engineering work taking assembly and turning it into C++. I debated on translating the project from Java into Python or C++, as I have more experience with both of the latter languages. But, using either for an Android application was proving to be somewhat troublesome as there is no direct way of doing so that I could immediately find, and finding a proper IDE to put it all together was becoming a headache. As previously stated I have no experience with Kotlin prior to taking on this endeavor, and so I had to do a fair bit of research into how the language works, how to translate from Java, what kind of IDE I would need to be working with, and more. Luckily, Android Studio does have some conversion software built in, and this assisted with a good deal of the translation, though it was definitely not a one-to-one instant transformation. Following the initial conversion, a number of errors appeared in the new iteration of the project, and I had to spend a fair deal of additional time researching these errors and correcting them in order to gain the same functionality and ensure the program would compile.
 
 
-# ***4. Algorithms and Data Structure***
+# **4. Algorithms and Data Structure**
 
 The artifact chosen for the algorithms and data structure portion of the ePortfolio is my final portfolio submission from my CS-260 Data Structures and Algorithms course in October/November/December of 2020. The portfolio itself was a collection of the various labs we performed throughout the term, each focusing on a particular type of algorithm/data structure. Each lab worked around a central file and the goal was to create a different type of structure for organizing and interacting with the data within, offering the ability to insert, remove, search, and print said data. Of these various labs, I have chosen to work with the particular file where we constructed a hash table and enhance it. The file is written in C++ as its primary programming language.
 
@@ -38,7 +38,7 @@ The course objective was to take the artifact and enhance it in some form or fas
 The process of enhancing this artifact was a little frustrating. I thought that because the program itself is not overly complex that finding a way to enhance the core data structure’s efficiency would be easily researchable. Turns out, a lot of the information I could find was largely theory without much in the way of examples or clear cut solutions. A hash table is simple in concept, it implements a structure that maps keys to values, then uses a hash function to compute an index into an array of buckets and slots where it stores data. The key is hashed during a search where the resulting hash tells us where its corresponding data is housed. Improving the efficiency of a hash table comes down to how many buckets it has and how it stores its data. To my knowledge there are two types of hash tables, one employs open addressing, and the other employs separate chaining, both are manners in which it deals with collisions. I chose to attempt to rewrite the code in a similar manner to the original (including some of the original code) where it would use separate chaining with linked lists to deal with said collisions. Additionally, when rewriting the various functions, I chose to implement iterators as previously stated. This was to help the program validate existing keys and to attempt to help improve its efficiency in navigating the table for its various functions. This all being said, I have some work to do, the program is not yet to a functional state. I believe I have done a lot of the legwork in getting it moving in the right direction, but there are still some discrepancies like the node structure that houses bids in the original program and if that can be integrated into the new model or if I need to find a workaround. As it is, however, I have cut down the program by roughly fifty lines of code, and I believe that it should have improved performance once fully complete.
 
 
-# ***5. Databases***
+# **5. Databases**
 
 The artifact chosen for the databases portion of the ePortfolio is my final submission from my DAD-220 Introduction to SQL course in May/June of 2019. This final project was a database management report, essentially taking the database we had been working with throughout the term and performing a series of specified tasks. This project used my SQL for queries and implementation, specifically working with MySQL.
 
