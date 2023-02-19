@@ -9,7 +9,7 @@
 
 
 # ***2. Code Review***
-You can find my initial code review at the following link: https://youtu.be/igXro7HJSLM
+You can find my initial code review at the following link: (https://youtu.be/igXro7HJSLM)
 
 
 # ***3. Software Design/Engineering***
