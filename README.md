@@ -22,7 +22,72 @@ The artifact chosen for the software design and engineering portion of the ePort
 	
 I selected this item for my ePortfolio as it is the most complete application I have developed during my time in the computer science program and it falls within the criteria for the software design and engineering category. I believe this artifact showcases my ability to work with the Java language as well as my ability to create more complex programs, working with various interconnected classes and functions, working with mobile architecture, and my ability to design user-friendly interfaces for interacting with applications. In terms of improvements to the existing artifact, I took the time to go through and clean up the existing code, adding in a bit more clarity in readability as well as cutting down on redundancies. I also took time to make the user-interface more accessible as well as fixing existing errors in the program that could have created issues in compiling or potentially with security if left unchecked.
 	
-The course objective was to take the artifact and enhance it in some form or fashion, and in addition to the minor improvements I added to the existing code, the primary enhancement I chose to perform on this project was to convert the existing code from the Java language to Kotlin. I chose to translate the project to Kotlin as it is the only other language officially supported by Google for Android development, and while I am fresh to this language, it does share a number of similarities to Java, and I took it as a personal challenge. This was one of the presented options for potential enhancements to perform with our chosen artifacts, and at this time I do not have any updates to my outcome-coverage plans, at least not regarding this particular project.
+The course objective was to take the artifact and enhance it in some form or fashion, and in addition to the minor improvements I added to the existing code, the primary enhancement I chose to perform on this project was to convert the existing code from the Java language to Kotlin. I chose to translate the project to Kotlin as it is the only other language officially supported by Google for Android development, and while I am fresh to this language, it does share a number of similarities to Java, and I took it as a personal challenge. This was one of the presented options for potential enhancements to perform with our chosen artifacts, and this would meet the objective of demonstrating an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals as well as developing with a security mindset.
+
+##### Code Examples #####
+
+Original Java:
+'''
+//Register and Sign In User
+    public User findUser(String username,String password){
+        String[] projection = {COLUMN_USERNAME, COLUMN_PASSWORD};
+
+        String selection = "username =\"" +username +"\" AND password=\""+password +"\"";
+
+        Cursor cursor = myCR.query(UserContentProvider.CONTENT_URI, projection,selection, null,null);
+
+        User user = new User();
+        System.out.println(cursor.moveToFirst());
+        if(cursor.moveToFirst()){
+            cursor.moveToFirst();
+            user.setUsername(cursor.getString(0));
+            user.setPassword((cursor.getString(1)));
+            cursor.close();
+        }else{
+            user =null;
+        }
+        return user;
+    }
+    public boolean addUser(User user){
+        ContentValues values=new ContentValues();
+        values.put(COLUMN_USERNAME, user.getUsername());
+        values.put(COLUMN_PASSWORD, user.getPassword());
+
+        myCR.insert(UserContentProvider.CONTENT_URI,values);
+        return true;
+    }
+'''
+
+Kotlin Version:
+'''
+//Register and Sign In User
+    fun findUser(username: String, password: String): User? {
+        val projection = arrayOf(COLUMN_USERNAME, COLUMN_PASSWORD)
+        val selection = "username =\"$username\" AND password=\"$password\""
+        val cursor = myCR.query(UserContentProvider.CONTENT_URI!!, projection, selection, null, null)
+        var user: User? = User()
+        println(cursor!!.moveToFirst())
+        if (cursor.moveToFirst()) {
+            cursor.moveToFirst()
+            user!!.username = cursor.getString(0)
+            user.password = cursor.getString(1)
+            cursor.close()
+        } else {
+            user = null
+        }
+        return user
+    }
+
+    fun addUser(user: User): Boolean {
+        val values = ContentValues()
+        values.put(COLUMN_USERNAME, user.username)
+        values.put(COLUMN_PASSWORD, user.password)
+        myCR.insert(UserContentProvider.CONTENT_URI!!, values)
+        return true
+    }
+'''
+
+
 	
 The process of enhancing this artifact was a genuine trial. I have very little experience with translating from one programming language to another, and what little I do have is largely reverse engineering work taking assembly and turning it into C++. I debated on translating the project from Java into Python or C++, as I have more experience with both of the latter languages. But, using either for an Android application was proving to be somewhat troublesome as there is no direct way of doing so that I could immediately find, and finding a proper IDE to put it all together was becoming a headache. As previously stated I have no experience with Kotlin prior to taking on this endeavor, and so I had to do a fair bit of research into how the language works, how to translate from Java, what kind of IDE I would need to be working with, and more. Luckily, Android Studio does have some conversion software built in, and this assisted with a good deal of the translation, though it was definitely not a one-to-one instant transformation. Following the initial conversion, a number of errors appeared in the new iteration of the project, and I had to spend a fair deal of additional time researching these errors and correcting them in order to gain the same functionality and ensure the program would compile.
 
@@ -33,7 +98,7 @@ The artifact chosen for the algorithms and data structure portion of the ePortfo
 
 I selected this item for my ePortfolio as it, taken as a whole, was an early example of not only working with C++, but also because it acts as a showcase of my experience working with various data structures in small, bite-sized programs. In terms of improvements to the existing artifact, I first attempted to assess what could be done with the hash table file to attempt to improve its performance. After extensive research, I found that my existing file had largely implemented many of the types of enhancements I was searching for. So, I spent time trying to clean up the existing file and further add to its readability before finally deciding to try my hand at outright rewriting it. The goal ultimately became to not only cut down on the amount of code but to further add to its efficiency by adding in iterators to many of its key functions.
 
-The course objective was to take the artifact and enhance it in some form or fashion, and in addition to the minor improvements I added to the existing code, the primary enhancement I chose to perform on this project was to rewrite the code for the existing functionality with iterators in an attempt to improve efficiency, as well as some other small functionality I was unsure of being implemented originally. I have very little to no experience working with iterators, I cannot recall a point where a course actually touched on them (though I have to believe that is not true), and so I took it as a challenge to further my understanding of C++ as a language and a test of my ability to implement it. The presented options for this particular artifact were to either improve the code’s efficiency or expand its complexity, and while I did consider outright translating the program to another language much like the first artifact for software design and engineering (in this case from C++ to Python), I do think that I ultimately achieved both of these types of enhancements. 
+The course objective was to take the artifact and enhance it in some form or fashion, and in addition to the minor improvements I added to the existing code, the primary enhancement I chose to perform on this project was to rewrite the code for the existing functionality with iterators in an attempt to improve efficiency, as well as some other small functionality I was unsure of being implemented originally. I have very little to no experience working with iterators, I cannot recall a point where a course actually touched on them (though I have to believe that is not true), and so I took it as a challenge to further my understanding of C++ as a language and a test of my ability to implement it. The presented options for this particular artifact were to either improve the code’s efficiency or expand its complexity, and while I did consider outright translating the program to another language much like the first artifact for software design and engineering (in this case from C++ to Python), I do think that I ultimately achieved both of these types of enhancements. This artifact also meets the course outcome of designing and evaluating computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing trade-offs involved in design choices.
 
 The process of enhancing this artifact was a little frustrating. I thought that because the program itself is not overly complex that finding a way to enhance the core data structure’s efficiency would be easily researchable. Turns out, a lot of the information I could find was largely theory without much in the way of examples or clear cut solutions. A hash table is simple in concept, it implements a structure that maps keys to values, then uses a hash function to compute an index into an array of buckets and slots where it stores data. The key is hashed during a search where the resulting hash tells us where its corresponding data is housed. Improving the efficiency of a hash table comes down to how many buckets it has and how it stores its data. To my knowledge there are two types of hash tables, one employs open addressing, and the other employs separate chaining, both are manners in which it deals with collisions. I chose to attempt to rewrite the code in a similar manner to the original (including some of the original code) where it would use separate chaining with linked lists to deal with said collisions. Additionally, when rewriting the various functions, I chose to implement iterators as previously stated. This was to help the program validate existing keys and to attempt to help improve its efficiency in navigating the table for its various functions. This all being said, I have some work to do, the program is not yet to a functional state. I believe I have done a lot of the legwork in getting it moving in the right direction, but there are still some discrepancies like the node structure that houses bids in the original program and if that can be integrated into the new model or if I need to find a workaround. As it is, however, I have cut down the program by roughly fifty lines of code, and I believe that it should have improved performance once fully complete.
 
