@@ -97,15 +97,18 @@ The process of enhancing this artifact was a genuine trial. I have very little e
 ### Links ###
 
 Original Inventory Management Application Project (Java): 
+
 [CS-360 Final Project - Inventory Management Application](https://github.com/EricWHarden/EricWHarden.github.io/blob/main/Eric%20Harden_CS-360_7-2%20Project%20Three.zip)
 
 Cleaned Up Inventory Management Application Project (Java): 
+
 [Inventory Management Application - Initial Updates](https://github.com/EricWHarden/EricWHarden.github.io/blob/main/Eric%20Harden_CS-499_3-2%20Milestone%20-%20Original%20Artifact%20w%20Updates.zip)
 
 Enhanced Inventory Management Application Project (Kotlin): 
+
 [Inventory Management Application - Kotlin Version](https://github.com/EricWHarden/EricWHarden.github.io/blob/main/Eric%20Harden_CS-499_3-2%20Milestone%20-%20Kotlin%20Ver.zip)
 
-
+ 
 
 # **4. Algorithms and Data Structure**
 
