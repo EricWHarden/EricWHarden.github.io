@@ -96,11 +96,14 @@ The process of enhancing this artifact was a genuine trial. I have very little e
 
 ### Links ###
 
-Original Inventory Management Application Project (Java): [CS-360 Final Project - Inventory Management Application](https://github.com/EricWHarden/EricWHarden.github.io/blob/main/Eric%20Harden_CS-360_7-2%20Project%20Three.zip)
+Original Inventory Management Application Project (Java): 
+[CS-360 Final Project - Inventory Management Application](https://github.com/EricWHarden/EricWHarden.github.io/blob/main/Eric%20Harden_CS-360_7-2%20Project%20Three.zip)
 
-Cleaned Up Inventory Management Application Project (Java): [Inventory Management Application - Initial Updates](https://github.com/EricWHarden/EricWHarden.github.io/blob/main/Eric%20Harden_CS-499_3-2%20Milestone%20-%20Original%20Artifact%20w%20Updates.zip)
+Cleaned Up Inventory Management Application Project (Java): 
+[Inventory Management Application - Initial Updates](https://github.com/EricWHarden/EricWHarden.github.io/blob/main/Eric%20Harden_CS-499_3-2%20Milestone%20-%20Original%20Artifact%20w%20Updates.zip)
 
-Enhanced Inventory Management Application Project (Kotlin): [Inventory Management Application - Kotlin Version](https://github.com/EricWHarden/EricWHarden.github.io/blob/main/Eric%20Harden_CS-499_3-2%20Milestone%20-%20Kotlin%20Ver.zip)
+Enhanced Inventory Management Application Project (Kotlin): 
+[Inventory Management Application - Kotlin Version](https://github.com/EricWHarden/EricWHarden.github.io/blob/main/Eric%20Harden_CS-499_3-2%20Milestone%20-%20Kotlin%20Ver.zip)
 
 
 
@@ -204,9 +207,9 @@ The course objective was to take the artifact and enhance it in some form or fas
 
 Samples From Original Database Report:
 
-![DAD-220 Final - 8](https://github.com/EricWHarden/EricWHarden.github.io/blob/main/Eric%20Harden_DAD-220_7-1%20-%208.jpg)
+![DAD-220 Final - 8](/EricWHarden.github.io/assets/Eric Harden_DAD-220_7-1 - 8.jpg)
 
-![DAD-220 Final - 16](https://github.com/EricWHarden/EricWHarden.github.io/blob/main/Eric%20Harden_DAD-220_7-1%20-%2016.jpg)
+![DAD-220 Final - 16](/EricWHarden.github.io/assets/Eric Harden_DAD-220_7-1 - 16.jpg)
 
 
 Sample From New Database Creation:
@@ -262,9 +265,9 @@ INSERT INTO `favorite_movies` VALUES (16,'4', 'Encanto', '2021-11-24', 'PG', '75
 
 Sample Queries From New Report:
 
-![New Report - 17](https://github.com/EricWHarden/EricWHarden.github.io/blob/main/Eric%20Harden_CS-499_Databases%20-%2017.png)
+![New Report - 17](/EricWHarden.github.io/assets/Eric Harden_CS-499_Databases - 17.png)
 
-![New Report - 19](https://github.com/EricWHarden/EricWHarden.github.io/blob/main/Eric%20Harden_CS-499_Databases%20-%2019.png)
+![New Report - 19](/EricWHarden.github.io/assets/Eric Harden_CS-499_Databases - 19.png)
 
 
 The process of enhancing this artifact was a challenge. I was struggling with this particular portion of the ePortfolio and was having issues coming up with a solution for my previously selected artifact, in part because I have not worked with dedicated database materials in quite some time. So, I decided to go back to basics, refresh myself on MySQL, and ultimately decided to switch to this artifact. This still presented a problem, as nearly every existing option I had for databases was lacking the bulk of the necessary materials to actually work with it, and so I decided to use the artifact as guidance in creating and working with a new database of my own creation. I feel like the entire experience was a learning one. It has been so long since I have worked with a database in this manner that it was a process of learning how to use the MySQL Workbench, how to create a new database and initially populate it, and relearning how to perform various queries and commands.
