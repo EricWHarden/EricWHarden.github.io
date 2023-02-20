@@ -265,7 +265,7 @@ INSERT INTO `favorite_movies` VALUES (16,'4', 'Encanto', '2021-11-24', 'PG', '75
 
 Sample Queries From New Report:
 
-![New Report - 17](assets/Eric%20Harden_CS-499_Databases%20-%2017.png)
+![New Report - 17](/EricWHarden.github.io/docs/assets/Eric%20Harden_CS-499_Databases%20-%2017.png)
 
 ![New Report - 19](/EricWHarden.github.io/assets/Eric Harden_CS-499_Databases - 19.png)
 
