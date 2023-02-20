@@ -27,7 +27,7 @@ The course objective was to take the artifact and enhance it in some form or fas
 ##### Code Examples #####
 
 Original Java:
-'''
+```
 //Register and Sign In User
     public User findUser(String username,String password){
         String[] projection = {COLUMN_USERNAME, COLUMN_PASSWORD};
@@ -56,10 +56,10 @@ Original Java:
         myCR.insert(UserContentProvider.CONTENT_URI,values);
         return true;
     }
-'''
+```
 
 Kotlin Version:
-'''
+```
 //Register and Sign In User
     fun findUser(username: String, password: String): User? {
         val projection = arrayOf(COLUMN_USERNAME, COLUMN_PASSWORD)
@@ -85,9 +85,7 @@ Kotlin Version:
         myCR.insert(UserContentProvider.CONTENT_URI!!, values)
         return true
     }
-'''
-
-
+```
 	
 The process of enhancing this artifact was a genuine trial. I have very little experience with translating from one programming language to another, and what little I do have is largely reverse engineering work taking assembly and turning it into C++. I debated on translating the project from Java into Python or C++, as I have more experience with both of the latter languages. But, using either for an Android application was proving to be somewhat troublesome as there is no direct way of doing so that I could immediately find, and finding a proper IDE to put it all together was becoming a headache. As previously stated I have no experience with Kotlin prior to taking on this endeavor, and so I had to do a fair bit of research into how the language works, how to translate from Java, what kind of IDE I would need to be working with, and more. Luckily, Android Studio does have some conversion software built in, and this assisted with a good deal of the translation, though it was definitely not a one-to-one instant transformation. Following the initial conversion, a number of errors appeared in the new iteration of the project, and I had to spend a fair deal of additional time researching these errors and correcting them in order to gain the same functionality and ensure the program would compile.
 
