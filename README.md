@@ -24,7 +24,7 @@ I selected this item for my ePortfolio as it is the most complete application I 
 	
 The course objective was to take the artifact and enhance it in some form or fashion, and in addition to the minor improvements I added to the existing code, the primary enhancement I chose to perform on this project was to convert the existing code from the Java language to Kotlin. I chose to translate the project to Kotlin as it is the only other language officially supported by Google for Android development, and while I am fresh to this language, it does share a number of similarities to Java, and I took it as a personal challenge. This was one of the presented options for potential enhancements to perform with our chosen artifacts, and this would meet the objective of demonstrating an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals as well as developing with a security mindset.
 
-##### Code Examples #####
+### Code Examples ###
 
 Original Java:
 ```
@@ -89,6 +89,13 @@ Kotlin Version:
 	
 The process of enhancing this artifact was a genuine trial. I have very little experience with translating from one programming language to another, and what little I do have is largely reverse engineering work taking assembly and turning it into C++. I debated on translating the project from Java into Python or C++, as I have more experience with both of the latter languages. But, using either for an Android application was proving to be somewhat troublesome as there is no direct way of doing so that I could immediately find, and finding a proper IDE to put it all together was becoming a headache. As previously stated I have no experience with Kotlin prior to taking on this endeavor, and so I had to do a fair bit of research into how the language works, how to translate from Java, what kind of IDE I would need to be working with, and more. Luckily, Android Studio does have some conversion software built in, and this assisted with a good deal of the translation, though it was definitely not a one-to-one instant transformation. Following the initial conversion, a number of errors appeared in the new iteration of the project, and I had to spend a fair deal of additional time researching these errors and correcting them in order to gain the same functionality and ensure the program would compile.
 
+### Links ###
+
+Original Inventory Management Application Project (Java): 
+
+Cleaned Up Inventory Management Application Project (Java): 
+
+Enhanced Inventory Management Application Project (Kotlin):
 
 # **4. Algorithms and Data Structure**
 
@@ -98,8 +105,27 @@ I selected this item for my ePortfolio as it, taken as a whole, was an early exa
 
 The course objective was to take the artifact and enhance it in some form or fashion, and in addition to the minor improvements I added to the existing code, the primary enhancement I chose to perform on this project was to rewrite the code for the existing functionality with iterators in an attempt to improve efficiency, as well as some other small functionality I was unsure of being implemented originally. I have very little to no experience working with iterators, I cannot recall a point where a course actually touched on them (though I have to believe that is not true), and so I took it as a challenge to further my understanding of C++ as a language and a test of my ability to implement it. The presented options for this particular artifact were to either improve the code’s efficiency or expand its complexity, and while I did consider outright translating the program to another language much like the first artifact for software design and engineering (in this case from C++ to Python), I do think that I ultimately achieved both of these types of enhancements. This artifact also meets the course outcome of designing and evaluating computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing trade-offs involved in design choices.
 
+### Code Examples ###
+
+Original Hash Table:
+
+```
+
+```
+
+Enhanced Hash Table:
+
+```
+
+```
+
 The process of enhancing this artifact was a little frustrating. I thought that because the program itself is not overly complex that finding a way to enhance the core data structure’s efficiency would be easily researchable. Turns out, a lot of the information I could find was largely theory without much in the way of examples or clear cut solutions. A hash table is simple in concept, it implements a structure that maps keys to values, then uses a hash function to compute an index into an array of buckets and slots where it stores data. The key is hashed during a search where the resulting hash tells us where its corresponding data is housed. Improving the efficiency of a hash table comes down to how many buckets it has and how it stores its data. To my knowledge there are two types of hash tables, one employs open addressing, and the other employs separate chaining, both are manners in which it deals with collisions. I chose to attempt to rewrite the code in a similar manner to the original (including some of the original code) where it would use separate chaining with linked lists to deal with said collisions. Additionally, when rewriting the various functions, I chose to implement iterators as previously stated. This was to help the program validate existing keys and to attempt to help improve its efficiency in navigating the table for its various functions. This all being said, I have some work to do, the program is not yet to a functional state. I believe I have done a lot of the legwork in getting it moving in the right direction, but there are still some discrepancies like the node structure that houses bids in the original program and if that can be integrated into the new model or if I need to find a workaround. As it is, however, I have cut down the program by roughly fifty lines of code, and I believe that it should have improved performance once fully complete.
 
+### Links ###
+
+Original Artifact File: 
+
+Enhanced Artifact File: 
 
 # **5. Databases**
 
@@ -111,4 +137,10 @@ The course objective was to take the artifact and enhance it in some form or fas
  
 The process of enhancing this artifact was a challenge. I was struggling with this particular portion of the ePortfolio and was having issues coming up with a solution for my previously selected artifact, in part because I have not worked with dedicated database materials in quite some time. So, I decided to go back to basics, refresh myself on MySQL, and ultimately decided to switch to this artifact. This still presented a problem, as nearly every existing option I had for databases was lacking the bulk of the necessary materials to actually work with it, and so I decided to use the artifact as guidance in creating and working with a new database of my own creation. I feel like the entire experience was a learning one. It has been so long since I have worked with a database in this manner that it was a process of learning how to use the MySQL Workbench, how to create a new database and initially populate it, and relearning how to perform various queries and commands.
 
+### Links ###
 
+Original Database Report: 
+
+New Custom Database File: 
+
+New Database Report: 
