@@ -262,9 +262,9 @@ INSERT INTO `favorite_movies` VALUES (16,'4', 'Encanto', '2021-11-24', 'PG', '75
 
 Sample Queries From New Report:
 
-[New Report - 17](https://github.com/EricWHarden/EricWHarden.github.io/blob/main/Eric%20Harden_CS-499_Databases%20-%2017.png)
+![New Report - 17](https://github.com/EricWHarden/EricWHarden.github.io/blob/main/Eric%20Harden_CS-499_Databases%20-%2017.png)
 
-[New Report - 19](https://github.com/EricWHarden/EricWHarden.github.io/blob/main/Eric%20Harden_CS-499_Databases%20-%2019.png)
+![New Report - 19](https://github.com/EricWHarden/EricWHarden.github.io/blob/main/Eric%20Harden_CS-499_Databases%20-%2019.png)
 
 
 The process of enhancing this artifact was a challenge. I was struggling with this particular portion of the ePortfolio and was having issues coming up with a solution for my previously selected artifact, in part because I have not worked with dedicated database materials in quite some time. So, I decided to go back to basics, refresh myself on MySQL, and ultimately decided to switch to this artifact. This still presented a problem, as nearly every existing option I had for databases was lacking the bulk of the necessary materials to actually work with it, and so I decided to use the artifact as guidance in creating and working with a new database of my own creation. I feel like the entire experience was a learning one. It has been so long since I have worked with a database in this manner that it was a process of learning how to use the MySQL Workbench, how to create a new database and initially populate it, and relearning how to perform various queries and commands.
