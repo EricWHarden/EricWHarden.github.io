@@ -210,9 +210,9 @@ The course objective was to take the artifact and enhance it in some form or fas
 
 Samples From Original Database Report:
 
-![DAD-220 Final - 8](/EricWHarden.github.io/docs/assets/images/Eric Harden_DAD-220_7-1 - 8.jpg)
+![DAD-220 Final - 8](/doc/assets/images/Eric Harden_DAD-220_7-1 - 8.jpg)
 
-![DAD-220 Final - 16](Eric Harden_DAD-220_7-1 - 16.jpg)
+![DAD-220 Final - 16](doc/assets/images/Eric Harden_DAD-220_7-1 - 16.jpg)
 
 
 Sample From New Database Creation:
