@@ -11,7 +11,15 @@
 4. Algorithms and Data Structure - Artifact 2: Hash Table Lab Enhancement
 5. Databases - Artifact 3: SQL Database Report Enhancement
 
+# **A. Game Projects**
 
+# **1. Mystic Mazes (A Learning Experience)**
+
+# **2. Beyond Apollo's Reach (Project On Hold)**
+
+# **3. Untitled Horror Game (Current Project)**
+
+# **B. Academic Projects**
 
 # **1. Professional Self-Assessment**
 
