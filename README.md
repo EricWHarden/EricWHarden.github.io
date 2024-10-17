@@ -14,6 +14,9 @@
 # **A. Game Projects**
 
 # **1. Mystic Mazes (A Learning Experience)**
+Mystic Mazes is a fully playable project that can be found at the following Dropbox link: [Mystic Mazes](https://www.dropbox.com/scl/fo/m489nb0jkp7w0ipnx6gvj/h?rlkey=h4jscsblen36cvwcyp0oi6psu&st=beky4aec&dl=0)
+
+After graduating, I started to work on various game prototypes in my free time. Mystic Mazes was made following a tutorial series (that provided the assets, code, etc) and was largely meant to get myself more familiar with Unreal Engine and the end-to-end flow of making a game. From inception to packaging. It's a short game where the player traverses the titular mazes, avoiding traps, collecting keys, and opening locked doors to advance to the next level. Progress is saved after each exit, and the game can even be quit and resumed later. It's very basic, but that's all it was ever meant to be, just a quick learning experience to get my feet wet.
 
 # **2. Beyond Apollo's Reach (Project On Hold)**
 
