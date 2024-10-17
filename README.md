@@ -34,6 +34,11 @@ I've also put together a video showing off the game's progress up to this point:
 
 # **3. Untitled Horror Game (Current Project)**
 
+My current project started development in January of 2024, but didn't really get rolling until July 2024. It's a horror title, set in a dreamworld with a home (modeled after my childhood home) as the "hub" space, largely inspired by films like *Skinamarink* (2022). Originally started as a game jam type of project, with the goal to have something completed in a month. I got the initial level largely built, but with my development time basically being only in my free time, I didn't get much further. That being said, after a long break, things are progressing at a good clip now. I'm trying to get more regular updates posted on my Twitter/X account, both as a means to show progress as well as market the game, and as of writing this I'm finally nearing the end of prototyping core mechanics and moving to fully build everything out. The goal is to have a demo and title in the coming months, at which time this portfolio entry will be updated as well.
+
+Progress overview video - October 2024 [YouTube Video Link](https://www.youtube.com/@HardenedResolveSoftworks)
+
+My personal Twitter/X account where I post updates more regularly [My Twitter Profile}(https://x.com/EricWHarden)
 
 
 # **B. Academic Projects**
