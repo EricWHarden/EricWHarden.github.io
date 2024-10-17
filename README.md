@@ -11,6 +11,8 @@
 4. Algorithms and Data Structure - Artifact 2: Hash Table Lab Enhancement
 5. Databases - Artifact 3: SQL Database Report Enhancement
 
+
+
 # **A. Game Projects**
 
 # **1. Mystic Mazes (A Learning Experience)**
@@ -18,9 +20,21 @@ Mystic Mazes is a fully playable project that can be found at the following Drop
 
 After graduating, I started to work on various game prototypes in my free time. Mystic Mazes was made following a tutorial series (that provided the assets, code, etc) and was largely meant to get myself more familiar with Unreal Engine and the end-to-end flow of making a game. From inception to packaging. It's a short game where the player traverses the titular mazes, avoiding traps, collecting keys, and opening locked doors to advance to the next level. Progress is saved after each exit, and the game can even be quit and resumed later. It's very basic, but that's all it was ever meant to be, just a quick learning experience to get my feet wet.
 
+
+
 # **2. Beyond Apollo's Reach (Project On Hold)**
 
+Following a period of ideation and trial-and-error prototyping, I started writing a game design document for what would be my first full game project: Beyond Apollo's Reach. Without getting into the specifics, this project is currently on hold, but I spent roughly seven to eight months of time working on it. The project was created as a stealth-horror title with a more retro aesthetic and design sensibilities. The entire thing was programmed from scratch, from the various systems in the inventory, to hiding mechanics and A.I., to throwable items and ladders. Additionally, a lot of time went into laying out the game world, with the majority of levels blocked out and meticulously interconnected for a more seemless player experience. I even spent some time putting together a trailer for an independant horror showcase, learning how to create cutscenes in Unreal Engine and a fair bit of animating and modeling in Blender, but it ultimately did not get included. I hope to return to this project at some point, but I'd like to make a pretty big pivot to an action-horror title, as that was my original vision for the concept.
+
+The following link is to the game's initial teaser trailer: [Beyond Apollo's Reach - Teaser Trailer](https://www.youtube.com/watch?v=ithQ3yHdeJU&t=1s)
+
+I've also put together a video showing off the game's progress up to this point: [YouTube Video Link](https://www.youtube.com/@HardenedResolveSoftworks)
+
+
+
 # **3. Untitled Horror Game (Current Project)**
+
+
 
 # **B. Academic Projects**
 
