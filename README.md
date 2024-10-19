@@ -38,7 +38,7 @@ My current project started development in January of 2024, but didn't really get
 
 Progress overview video - October 2024 [YouTube Video Link](https://www.youtube.com/@HardenedResolveSoftworks)
 
-My personal Twitter/X account where I post updates more regularly [My Twitter Profile}(https://x.com/EricWHarden)
+My personal Twitter/X account where I post updates more regularly [My Twitter Profile](https://x.com/EricWHarden/status/1750615362088128815)
 
 
 # **B. Academic Projects**
